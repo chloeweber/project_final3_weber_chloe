@@ -11,7 +11,8 @@ html {
 }
 
 @font-face {
-
+    font-family: klinicSlab;
+    src: url("fonts/KlinicSlabBook.otf");
 }
 
 .visuallyhidden {
@@ -28,4 +29,25 @@ html {
 .site-container {
     max-width: 1000px;
     margin: auto;
+}
+
+body {
+    padding: 0;
+    font-size: 15px;
+    font-family: klinicSlab;
+    letter-spacing: 1px;
+    color: #000000;
+    background-color: #fefbd8;
+}
+
+#container {
+    padding: 0 10px;
+}
+
+/* Header */
+
+#logo img {
+    width: 70%;
+    height: auto;
+    margin: 2.5% 15%;
 }
