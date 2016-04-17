@@ -6,3 +6,7 @@ $( document ).ready( function() {
         scrollingSpeed: 1000
     } );
 } );
+
+$( document ).ready( function() {
+    $( '.drawer' ).drawer();
+} );

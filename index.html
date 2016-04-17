@@ -10,24 +10,36 @@
     <link rel="stylesheet" href="css/vendor/normalize.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+    <link rel="stylesheet" type="text/css" href="css/drawer.min.css" />
     <link href="https://fonts.googleapis.com/css?family=Mouse+Memoirs" rel="stylesheet" type="text/css" />
 </head>
-<body>
+<body class="drawer drawer--left">
 
-    <ul id="menu">
-        <li data-menuanchor="about"><a href="#about">About</a></li>
-        <li data-menuanchor="frozenBananas"><a href="#frozenBananas">Frozen Bananas</a></li>
-        <li data-menuanchor="beverages"><a href="#beverages">Beverages</a></li>
-        <li data-menuanchor="entrees"><a href="#entrees">Entrees</a></li>
-        <li data-menuanchor="desserts"><a href="#desserts">Desserts</a></li>
-        <li data-menuanchor="contact"><a href="#contact">Contact</a></li>
-    </ul>
+    <header role="banner">
+        <button type="button" class="drawer-toggle drawer-hamburger">
+            <span class="sr-only">toggle navigation</span>
+            <span class="drawer-hamburger-icon"></span>
+        </button>
+        <nav class="drawer-nav" role="navigation">
+            <ul class="drawer-menu" id="menu">
+                <li data-menuanchor="about"><a class="drawer-menu-item" href="#about">About</a></li>
+                <li data-menuanchor="frozenBananas"><a class="drawer-menu-item" href="#frozenBananas">Frozen Bananas</a></li>
+                <li data-menuanchor="beverages"><a class="drawer-menu-item" href="#beverages">Beverages</a></li>
+                <li data-menuanchor="entrees"><a class="drawer-menu-item" href="#entrees">Entrees</a></li>
+                <li data-menuanchor="desserts"><a class="drawer-menu-item" href="#desserts">Desserts</a></li>
+                <li data-menuanchor="contact"><a class="drawer-menu-item" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+ <main role="main">
 
     <div id="fullpage">
-        <div class="section " id="section0">
+        <div class="section" id="section0">
             <h1>fullPage.js</h1>
             <p>Create Beautiful Fullscreen Scrolling Websites</p>
         </div>
+
         <div class="section" id="section1">
             <div class="slide">
                 <div class="intro">
@@ -76,9 +88,13 @@
         </div>
     </div>
 
+</main>
+
     <script src="js/jquery-2.2.2.min.js"></script>
     <script type="text/javascript" src="js/jquery.fullPage.min.js"></script>
     <script type="text/javascript" src="js/examples.js"></script>
+    <script type="text/javascript" src="js/iscroll.min.js"></script>
+    <script type="text/javascript" src="js/drawer.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
