@@ -59,6 +59,16 @@ p {
 
 /* Hamburger Menu */
 
+header {
+    position: fixed;
+    z-index: 4;
+    top: 0;
+    display: block;
+    box-sizing: content-box;
+    width: 100%;
+    padding: 0;
+}
+
 #menu {
     position: fixed;
     top: 0;
@@ -103,4 +113,28 @@ ul#menu.drawer-menu {
 
 #menu li a:hover {
     color: #f14b11;
+}
+
+/* Logo */
+
+#logo img {
+    width: 50%;
+    height: auto;
+    margin: 2% 25% 0;
+}
+
+@media all and (min-width: 600px) {
+    #logo img {
+        width: 40%;
+        height: auto;
+        margin: 1% 30% 0;
+    }
+}
+
+@media all and (min-width: 1000px) {
+    #logo img {
+        width: 15%;
+        height: auto;
+        margin: 0.5% 42.5% 0;
+    }
 }

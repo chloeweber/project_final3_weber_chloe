@@ -1,6 +1,6 @@
 $( document ).ready( function() {
     $( '#fullpage' ).fullpage( {
-        sectionsColor: [ '#f7ae36', '#fed37c', '#fefbd8', '#f7ae36', '#fed37c', '#fefbd8' ],
+        sectionsColor: [ '#fed37c', '#fefbd8', '#fed37c', '#fefbd8', '#fed37c', '#fefbd8' ],
         anchors: [ 'about', 'frozenBananas', 'beverages', 'entrees', 'desserts', 'contact' ],
         menu: '#menu',
         scrollingSpeed: 1000
