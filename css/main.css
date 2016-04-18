@@ -39,24 +39,6 @@ body {
     color: #000000;
 }
 
-h1 {
-    font-size: 6em;
-}
-
-p {
-    font-size: 2em;
-}
-
-.intro p {
-    width: 50%;
-    margin: 0 auto;
-    font-size: 1.5em;
-}
-
-.section {
-    text-align: center;
-}
-
 /* Hamburger Menu */
 
 #menu {
@@ -97,6 +79,10 @@ ul#menu.drawer-menu {
     color: #ffffff;
 }
 
+a.drawer-menu-item {
+    border-style: none;
+}
+
 #menu li.active a:hover {
     color: #f14b11;
 }
@@ -110,12 +96,6 @@ ul#menu.drawer-menu {
 }
 
 /* Logo */
-
-#logo {
-    position: fixed;
-    z-index: 1;
-    width: 100%;
-}
 
 #logo img {
     width: 50%;
@@ -137,4 +117,10 @@ ul#menu.drawer-menu {
         height: auto;
         margin: 0.5% 42.5% 0;
     }
+}
+
+/* About Page */
+
+.about img {
+    width: 47.5%;
 }

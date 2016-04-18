@@ -10,3 +10,8 @@ $( document ).ready( function() {
 $( document ).ready( function() {
     $( '.drawer' ).drawer();
 } );
+
+$( document ).ready( function() {
+    $( '.slider' ).slick( {
+    } );
+} );
