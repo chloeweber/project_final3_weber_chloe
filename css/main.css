@@ -146,8 +146,13 @@ h4 {
     background-color: rgba(62, 149, 143, 0.5);
 }
 
+#welcome img {
+    display: none;
+}
+
 #welcome p {
     text-align: center;
+    padding-bottom: 2%;
 }
 
 p {
@@ -159,6 +164,10 @@ p {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
     margin: 2% 3%;
     padding-bottom: 1%;
+}
+
+#upcoming-events img {
+    display: none;
 }
 
 .para-style {
