@@ -128,10 +128,35 @@ h2 {
     margin: 2% 3%;
 }
 
-p {
-    margin: 0 3%;
+h3 {
+    color: #f7ae36;
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 2em;
+    margin: 2% 3%;
 }
 
-#mobile-hidden {
+h4 {
+    color: #3e958f;
+    font-size: 1.2em;
+    margin: 2% 3%;
+}
+
+p {
+    margin: 0 3% 2%;
+}
+
+#upcoming-events {
+    border: 5px solid #f7ae36;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+    margin: 2% 3%;
+    padding-bottom: 1%;
+}
+
+.events-style {
+    color: #3e958f;
+    font-weight: bold;
+}
+
+.mobile-hidden {
     display: none;
 }
