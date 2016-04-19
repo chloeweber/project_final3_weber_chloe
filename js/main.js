@@ -1,6 +1,6 @@
 $( document ).ready( function() {
     $( '#fullpage' ).fullpage( {
-        sectionsColor: [ '#fed37c', '#fefbd8', '#fed37c', '#fefbd8', '#fed37c', '#fefbd8' ],
+        sectionsColor: [ '#fefbd8', '#fed37c', '#fefbd8', '#fed37c', '#fefbd8', '#fed37c' ],
         anchors: [ 'about', 'frozenBananas', 'beverages', 'entrees', 'desserts', 'contact' ],
         menu: '#menu',
         scrollingSpeed: 1000
@@ -9,9 +9,4 @@ $( document ).ready( function() {
 
 $( document ).ready( function() {
     $( '.drawer' ).drawer();
-} );
-
-$( document ).ready( function() {
-    $( '.slider' ).slick( {
-    } );
 } );
