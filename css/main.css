@@ -41,16 +41,7 @@ body {
 
 /* Hamburger Menu */
 
-#menu {
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 200px;
-    z-index: 70;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-}
+
 
 nav.drawer-nav {
     background: rgba(255, 255, 255, 1);
@@ -195,11 +186,13 @@ p {
     margin: 0 3%;
 }
 
-.banana-item {
+.banana-item-light,
+.banana-item-dark {
     margin-bottom: 7%;
 }
 
-.banana-item img {
+.banana-item-light img,
+.banana-item-dark img {
     display: none;
 }
 
