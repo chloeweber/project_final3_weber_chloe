@@ -1,3 +1,5 @@
+/* Plugin 1: This jQuery code calls the FullPage plugin's Javascript file. This plugin makes
+my website a single-scroll website that only displays content that fits on the screen. */
 $( document ).ready( function() {
     $( '#fullpage' ).fullpage( {
         sectionsColor: [ '#fefbd8', '#fed37c', '#fefbd8', '#fed37c', '#fefbd8', '#fed37c' ],
@@ -7,10 +9,14 @@ $( document ).ready( function() {
     } );
 } );
 
+/* Plugin 2: This jQuery code calls the Drawer plugin's Javascript file. This plugin adds
+an off screen navigation menu. */
 $( document ).ready( function() {
     $( '.drawer' ).drawer();
 } );
 
+/*Custom Javascript Code: This code can be found on the contact page of my site.
+This code makes each social media icon larger upon mouse over and normal size upon mouse out.*/
 var imgOne = document.getElementById( 'img-one' );
 imgOne.addEventListener( 'mouseover', overOne );
 imgOne.addEventListener( 'mouseout', outOne );
@@ -67,12 +73,9 @@ function outFour() {
     imgFour.style.height = ' 50px ';
 }
 
-$( document ).ready( function( ) {
-    $( '.item-menu' ).hover( function( ) {
-        $( 'body' ).css( 'background-color', 'blue' ); //edit, body must be in quotes!
-    } );
-} );
-
+/* Custon jQuery Code: This code can be found on each of the menu pages. This code changes
+the background color of each menu item to either a dark or light orange (depending on the page
+background color) upon hover, then changes it back to the normal background color.*/
 $( document ).ready( function( ) {
     $( '.banana-item-light' ).hover( function( ) {
         $( this ).css( 'background', '#f7ae36' );
