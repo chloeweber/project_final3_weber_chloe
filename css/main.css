@@ -274,6 +274,22 @@ p {
     }
 }
 
+@media all and (min-width: 1000px) {
+    .banana-light::after,
+    .banana-dark::after {
+        content: "";
+        clear: both;
+        display: block;
+    }
+    #section1 h2,
+    #section2 h2,
+    #section3 h2,
+    #section4 h2,
+    #section5 h2 {
+        margin-bottom: 1%;
+    }
+}
+
 .banana-item-light,
 .banana-item-dark {
     margin-bottom: 7%;
@@ -284,6 +300,15 @@ p {
     .banana-item-dark {
         margin-bottom: 3%;
         text-align: center;
+    }
+}
+
+@media all and (min-width: 1000px) {
+    .banana-item-light,
+    .banana-item-dark {
+        float: left;
+        width: calc(100% / 3);
+        margin-bottom: 1%;
     }
 }
 
@@ -311,6 +336,16 @@ p {
         box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
     }
 }
+
+@media all and (min-width: 1000px) {
+    .banana-item-light img,
+    .banana-item-dark img {
+        width: 80%;
+        height: auto;
+        margin: 0 10% 5%;
+    }
+}
+
 
 /* Contact Page */
 
