@@ -356,6 +356,20 @@ p {
     margin: 0 3%;
 }
 
+@media all and (min-width: 1000px) {
+    #contact-info {
+        float: left;
+        width: 46%;
+        margin-right: 0;
+        padding-top: 1.5%;
+    }
+    #contact-info::after {
+        content: "";
+        clear: both;
+        display: block;
+    }
+}
+
 #contact-info ul {
     padding: 0;
 }
@@ -402,6 +416,33 @@ p {
     }
 }
 
+@media all and (min-width: 1000px) {
+    #gift-cert {
+        float: right;
+        width: 49%;
+        margin-top: 0;
+        padding-right: 1.5%;
+    }
+    #gift-cert-img {
+        float: none;
+        width: 44%;
+        margin: 0;
+    }
+    #gift-cert img {
+        width: 100%;
+    }
+    #gift-cert-copy {
+        float: none;
+        width: 100%;
+    }
+    #gift-cert-copy h3 {
+        margin-left: 4%;
+    }
+    #gift-cert-copy p {
+        margin-left: 4%;
+    }
+}
+
 #awards {
     background-color: rgba(241, 75, 17, 0.25);
     margin-top: 3%;
@@ -415,4 +456,25 @@ p {
 #awards ul {
     margin: 0;
     padding-bottom: 3%;
+}
+
+@media all and (min-width: 1000px) {
+    #awards {
+        float: left;
+        width: 49%;
+        height: auto;
+        padding: 0;
+        margin-top: 2%;
+    }
+    #awards::after {
+        content: "";
+        clear: both;
+        display: block;
+    }
+    #awards h3 {
+        margin-left: 6%;
+    }
+    #awards ul {
+        margin-left: 3%;
+    }
 }
